@@ -1,6 +1,6 @@
 // Each name should be in the format "Stu1, Stu2, and Stu3" with an optional URL
 var names = [
-    ["CSA_logo", "https://www.sbhscs.org"]
+    ["Alessandro", "https://codehs.com/share/id/final-project-MbUEpb/run"]
 ];
 
 var gridWidth = 4;
