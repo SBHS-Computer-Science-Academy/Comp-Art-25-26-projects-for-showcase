@@ -1,19 +1,19 @@
 // Each name should be in the format "Stu1, Stu2, and Stu3" with an optional URL
 var names = [
-    ["Alessandro", "https://codehs.com/share/id/final-project-MbUEpb/run"],
-    ["Ivan", "https://codehs.com/share/id/final-project-891f2h/run"],
-    ["Vonn", "https://codehs.com/share/id/final-project-CGu32v/run"],
-    ["Maddie", "https://codehs.com/share/id/final-project-FICB9H/run"],
-    ["Miles", "https://codehs.com/share/id/final-project-OWkyVF/run"],
-    ["Henry,Mason,Noah", "https://codehs.com/sandbox/kstewart/retro-polo"],
-    ["Mason", "https://codehs.com/sandbox/kstewart/blackjack-p5"],
-    ["Sam,Kaylee","https://codehs.com/sandbox/kstewart/final-pacman"],
-    ["Marsi", "https://codehs.com/share/id/final-project-891f2h/run"],
-    ["Vanessa", "https://codehs.com/share/id/final-project-fy2fVB/run"],
-    ["Nicholas", "https://codehs.com/share/id/final-project-fZETxB/run"],
-    ["Kayleb", "https://codehs.com/share/id/final-project-ETZ9XQ/run"],
-    ["Adam", "https://codehs.com/share/id/final-project-MELUKX/run"],
-    ["Koa", "https://codehs.com/share/id/final-project-UqSd1j/run"]
+    "Adam",
+    "Alessandro",
+    "Henry,Mason,Noah", 
+    "Ivan", 
+    "Kayleb",
+    "Kaylee,Sam",
+    "Koa",
+    "Maddie",
+    "Marsi", 
+    "Mason",
+    "Miles", 
+    "Nicholas",
+    "Vanessa",
+    "Vonn",
 ];
 
 var gridWidth = 4;
@@ -43,10 +43,11 @@ function makeCard() {
     	name = names[idx][0];
     	fileUrl = names[idx][1];
     }
-    var file = name.replaceAll(" ","").replaceAll(",","").replace("and","");
+    var file = name.replaceAll(" ","").replaceAll(",","")
     var imageName = file + ".png"
     
     if (fileUrl != "") file = fileUrl;
+    else file = file + "/index.html"
     var card = generateCard(name, imageName, name, file);
     gridHtml += card; //not elegant, but it works
     

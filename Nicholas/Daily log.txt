@@ -1,0 +1,60 @@
+Daily log!
+
+Day 1: Initial Setup (Oct 26)
+
+- Idea of a maze game - revamp the old
+- Work log (setup): Created the base project and rough plan for how levels and walls should and will be stored
+
+Day 2: Pre checklist (Nov 8)
+
+- Organized project, listed out ideas, how it would be done, migrated to notion
+- Work log (planning): Wrote my daily log
+
+Day 3: Further organization (Dec 22)
+
+- Cleaned up ideas
+- Work log (cleanup pass): Cleaned my notes + trimmed features into something more realistic
+
+Day 4: Revitalized planning (Dec 28)
+
+- Revilitzed planning onto a this!
+- Kept track of old version and how it worked
+- Wrote my goals for the revamped version and how its all going to go
+- Work log: Documented how the old maze worked on this doc + mapped old systems to new goals (like hearts and menu)
+
+Day 6: Kernel rewrite + major fixed (Dec 30)
+
+- *Completly redone script.js to use a real state system (like menu, play, pause, settings, gameover)
+- Fixed and added to how the ui works with hearts and sound stuff (that got fixed later since alot of this broke the first day)
+- Cleaned up with how stuff communicates with eachother since it was messy coding on different websites at the start
+- Work log: script.js - heavy rewrite (A ton of rewrites, saves, copy and pastes all to get the state system to actually work like the menu platy pause settings gameover things and worked on UI Logic. Worked From around 8:50 - 9:30 PM
+
+Day 7: SFX + Level polish (Dec 31)
+
+- Added / finished sfx triggers for events (pause, resume, win, die etc)
+- Repolished levels and difficulty scaling
+- Final cleanip pass to make it feel smoother
+- Work log: script.js another work session with more fixes and bugs and but was able to refine levels and difficulity scaling and event triggers (2:30 - 5 PM)
+
+Day 8: Finish (Jan 1)! New year day prize!
+
+- Finished up the game
+- Final testing + last bug fixes
+- Work log: Build + final testing sesh from ~2:30 to 7:40 PM.
+
+Day 9: Audio and UI Debugging (Jan 2)
+
+- Found issues with music playing and the p5.sound situation and loading the sound correctly with filepaths
+- Tested the jumpscare sound and how it worked, I tried to have a key to trigger jumpscare mechanic but that didnt work out
+- Started to strip down things from the project to simplify (as much as possible at least)
+- Starting to redo settings menu due to some removed functions
+- Work log: Fixing things up again lots of bugs focused on sound loading / file paths / and how stuff behaved (10:30 - 11 PM)
+
+Day 10: Simplifying + Jumpscare System revitalization (Jan 3)
+
+- Removed music and extra SFX systems (only kept jumpscare mp3)
+- Rebuilt settings for only Jumpscare and Back button
+- Added jumpscare every 3 deaths logic (with the deathCounter)
+- Removed more bloat like the BOO stuff that I used before the official jumpscare
+- I went through like 10 different ways of fixing the jumpscare so I used a old method that I used before I configured the UI before removing the old SFX and buttons, that broke eveyrhint afterwords. That logic worked so I stuck with it by copying and pasting.
+- Work log: Finishing up! Console.js edits, active edits, saves, reworking tools.  simplifying for jumpscare only meta (3-4 PM) for jumpscare only meta (3-4 PM)
